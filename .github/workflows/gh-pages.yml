@@ -21,7 +21,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL=https://hugoinaction.github.io/GitHubPages
+        run: hugo --minify --baseURL=https://mrezabayat.github.io/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
